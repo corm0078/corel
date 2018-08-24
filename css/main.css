@@ -210,6 +210,21 @@ h3 a{
 	color: #2A51E0;
 }
 
+.chat h3 a{
+	color: black;
+}
+
+.chat h3 a:hover {
+	color: #2A51E0;
+}
+
+
+.chat h3{
+	margin-top: 16px;
+}
+
+
+
 .self-img{
 	background-color: #FAEEE2;
 	margin-left: 32px;
@@ -239,6 +254,7 @@ h3 a{
 
 /* desktop intro/image */
 
+
 @media only screen and (min-width: 840px) {
 
 	nav{
@@ -256,6 +272,7 @@ h3 a{
 
 	.content-text{
 		height: 440px;
+		width: 440px;
 		display: table-cell;
 		vertical-align: middle;
 	}
@@ -280,6 +297,13 @@ h3 a{
 		max-height: 440px;
 	}
 }
+
+@media only screen and (min-width: 1150px) {
+.content-text{
+		width: 840px;
+	}
+
+	}
 
 /* mobile work */
 
@@ -553,6 +577,11 @@ h3 a{
 	text-align: center;
 }
 
+.chat .social-footer li a:hover i{
+	color: #2A51E0;
+}
+
+
 
 /* desktop chat*/
 
@@ -777,4 +806,3 @@ h3 a{
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
-
